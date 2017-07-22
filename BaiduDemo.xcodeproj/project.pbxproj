@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2A28711F23671800C23042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28701F23671800C23042 /* AppDelegate.swift */; };
+		EC2A28731F23671800C23042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28721F23671800C23042 /* ViewController.swift */; };
+		EC2A28761F23671800C23042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2A28741F23671800C23042 /* Main.storyboard */; };
+		EC2A28791F23671800C23042 /* BaiduDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28771F23671800C23042 /* BaiduDemo.xcdatamodeld */; };
+		EC2A287B1F23671800C23042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2A287A1F23671800C23042 /* Assets.xcassets */; };
+		EC2A287E1F23671800C23042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2A287C1F23671800C23042 /* LaunchScreen.storyboard */; };
+		EC2A28891F23671800C23042 /* BaiduDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28881F23671800C23042 /* BaiduDemoTests.swift */; };
+		EC2A28941F23671800C23042 /* BaiduDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28931F23671800C23042 /* BaiduDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2A28851F23671800C23042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2A28651F23671800C23042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2A286C1F23671800C23042;
+			remoteInfo = BaiduDemo;
+		};
+		EC2A28901F23671800C23042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2A28651F23671800C23042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2A286C1F23671800C23042;
+			remoteInfo = BaiduDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2A286D1F23671800C23042 /* BaiduDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2A28701F23671800C23042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2A28721F23671800C23042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2A28751F23671800C23042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2A28781F23671800C23042 /* BaiduDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BaiduDemo.xcdatamodel; sourceTree = "<group>"; };
+		EC2A287A1F23671800C23042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2A287D1F23671800C23042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2A287F1F23671800C23042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2A28841F23671800C23042 /* BaiduDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2A28881F23671800C23042 /* BaiduDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduDemoTests.swift; sourceTree = "<group>"; };
+		EC2A288A1F23671800C23042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2A288F1F23671800C23042 /* BaiduDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2A28931F23671800C23042 /* BaiduDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduDemoUITests.swift; sourceTree = "<group>"; };
+		EC2A28951F23671800C23042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2A286A1F23671800C23042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A28811F23671800C23042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A288C1F23671800C23042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2A28641F23671800C23042 = {
+			isa = PBXGroup;
+			children = (
+				EC2A286F1F23671800C23042 /* BaiduDemo */,
+				EC2A28871F23671800C23042 /* BaiduDemoTests */,
+				EC2A28921F23671800C23042 /* BaiduDemoUITests */,
+				EC2A286E1F23671800C23042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2A286E1F23671800C23042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A286D1F23671800C23042 /* BaiduDemo.app */,
+				EC2A28841F23671800C23042 /* BaiduDemoTests.xctest */,
+				EC2A288F1F23671800C23042 /* BaiduDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2A286F1F23671800C23042 /* BaiduDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A28701F23671800C23042 /* AppDelegate.swift */,
+				EC2A28721F23671800C23042 /* ViewController.swift */,
+				EC2A28741F23671800C23042 /* Main.storyboard */,
+				EC2A287A1F23671800C23042 /* Assets.xcassets */,
+				EC2A287C1F23671800C23042 /* LaunchScreen.storyboard */,
+				EC2A287F1F23671800C23042 /* Info.plist */,
+				EC2A28771F23671800C23042 /* BaiduDemo.xcdatamodeld */,
+			);
+			path = BaiduDemo;
+			sourceTree = "<group>";
+		};
+		EC2A28871F23671800C23042 /* BaiduDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A28881F23671800C23042 /* BaiduDemoTests.swift */,
+				EC2A288A1F23671800C23042 /* Info.plist */,
+			);
+			path = BaiduDemoTests;
+			sourceTree = "<group>";
+		};
+		EC2A28921F23671800C23042 /* BaiduDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A28931F23671800C23042 /* BaiduDemoUITests.swift */,
+				EC2A28951F23671800C23042 /* Info.plist */,
+			);
+			path = BaiduDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2A286C1F23671800C23042 /* BaiduDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2A28981F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemo" */;
+			buildPhases = (
+				EC2A28691F23671800C23042 /* Sources */,
+				EC2A286A1F23671800C23042 /* Frameworks */,
+				EC2A286B1F23671800C23042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduDemo;
+			productName = BaiduDemo;
+			productReference = EC2A286D1F23671800C23042 /* BaiduDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2A28831F23671800C23042 /* BaiduDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2A289B1F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemoTests" */;
+			buildPhases = (
+				EC2A28801F23671800C23042 /* Sources */,
+				EC2A28811F23671800C23042 /* Frameworks */,
+				EC2A28821F23671800C23042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2A28861F23671800C23042 /* PBXTargetDependency */,
+			);
+			name = BaiduDemoTests;
+			productName = BaiduDemoTests;
+			productReference = EC2A28841F23671800C23042 /* BaiduDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2A288E1F23671800C23042 /* BaiduDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2A289E1F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemoUITests" */;
+			buildPhases = (
+				EC2A288B1F23671800C23042 /* Sources */,
+				EC2A288C1F23671800C23042 /* Frameworks */,
+				EC2A288D1F23671800C23042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2A28911F23671800C23042 /* PBXTargetDependency */,
+			);
+			name = BaiduDemoUITests;
+			productName = BaiduDemoUITests;
+			productReference = EC2A288F1F23671800C23042 /* BaiduDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2A28651F23671800C23042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yjh;
+				TargetAttributes = {
+					EC2A286C1F23671800C23042 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EC2A28831F23671800C23042 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2A286C1F23671800C23042;
+					};
+					EC2A288E1F23671800C23042 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2A286C1F23671800C23042;
+					};
+				};
+			};
+			buildConfigurationList = EC2A28681F23671800C23042 /* Build configuration list for PBXProject "BaiduDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2A28641F23671800C23042;
+			productRefGroup = EC2A286E1F23671800C23042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2A286C1F23671800C23042 /* BaiduDemo */,
+				EC2A28831F23671800C23042 /* BaiduDemoTests */,
+				EC2A288E1F23671800C23042 /* BaiduDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2A286B1F23671800C23042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2A287E1F23671800C23042 /* LaunchScreen.storyboard in Resources */,
+				EC2A287B1F23671800C23042 /* Assets.xcassets in Resources */,
+				EC2A28761F23671800C23042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A28821F23671800C23042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A288D1F23671800C23042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2A28691F23671800C23042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2A28731F23671800C23042 /* ViewController.swift in Sources */,
+				EC2A28711F23671800C23042 /* AppDelegate.swift in Sources */,
+				EC2A28791F23671800C23042 /* BaiduDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A28801F23671800C23042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2A28891F23671800C23042 /* BaiduDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2A288B1F23671800C23042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2A28941F23671800C23042 /* BaiduDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2A28861F23671800C23042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2A286C1F23671800C23042 /* BaiduDemo */;
+			targetProxy = EC2A28851F23671800C23042 /* PBXContainerItemProxy */;
+		};
+		EC2A28911F23671800C23042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2A286C1F23671800C23042 /* BaiduDemo */;
+			targetProxy = EC2A28901F23671800C23042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2A28741F23671800C23042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2A28751F23671800C23042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2A287C1F23671800C23042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2A287D1F23671800C23042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2A28961F23671800C23042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2A28971F23671800C23042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2A28991F23671800C23042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaiduDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC2A289A1F23671800C23042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaiduDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC2A289C1F23671800C23042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaiduDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduDemo.app/BaiduDemo";
+			};
+			name = Debug;
+		};
+		EC2A289D1F23671800C23042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaiduDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduDemo.app/BaiduDemo";
+			};
+			name = Release;
+		};
+		EC2A289F1F23671800C23042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BaiduDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BaiduDemo;
+			};
+			name = Debug;
+		};
+		EC2A28A01F23671800C23042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BaiduDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BaiduDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2A28681F23671800C23042 /* Build configuration list for PBXProject "BaiduDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2A28961F23671800C23042 /* Debug */,
+				EC2A28971F23671800C23042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2A28981F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2A28991F23671800C23042 /* Debug */,
+				EC2A289A1F23671800C23042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2A289B1F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2A289C1F23671800C23042 /* Debug */,
+				EC2A289D1F23671800C23042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2A289E1F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2A289F1F23671800C23042 /* Debug */,
+				EC2A28A01F23671800C23042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC2A28771F23671800C23042 /* BaiduDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC2A28781F23671800C23042 /* BaiduDemo.xcdatamodel */,
+			);
+			currentVersion = EC2A28781F23671800C23042 /* BaiduDemo.xcdatamodel */;
+			path = BaiduDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC2A28651F23671800C23042 /* Project object */;
+}

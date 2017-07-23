@@ -15,6 +15,27 @@
 		EC2A287E1F23671800C23042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2A287C1F23671800C23042 /* LaunchScreen.storyboard */; };
 		EC2A28891F23671800C23042 /* BaiduDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28881F23671800C23042 /* BaiduDemoTests.swift */; };
 		EC2A28941F23671800C23042 /* BaiduDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A28931F23671800C23042 /* BaiduDemoUITests.swift */; };
+		EC2A28B21F23677C00C23042 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC2A28B11F23677C00C23042 /* mapapi.bundle */; };
+		EC2A28B61F23679B00C23042 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28B41F23679B00C23042 /* libcrypto.a */; };
+		EC2A28B71F23679B00C23042 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28B51F23679B00C23042 /* libssl.a */; };
+		EC2A28B91F2367A400C23042 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28B81F2367A400C23042 /* Security.framework */; };
+		EC2A28BB1F2367AD00C23042 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28BA1F2367AD00C23042 /* OpenGLES.framework */; };
+		EC2A28BD1F2367B400C23042 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28BC1F2367B400C23042 /* QuartzCore.framework */; };
+		EC2A28BF1F2367BC00C23042 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28BE1F2367BC00C23042 /* SystemConfiguration.framework */; };
+		EC2A28C11F2367C600C23042 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28C01F2367C600C23042 /* libsqlite3.0.tbd */; };
+		EC2A28C31F2367D200C23042 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28C21F2367D200C23042 /* CoreTelephony.framework */; };
+		EC2A28C51F2367F100C23042 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28C41F2367F100C23042 /* libstdc++.6.0.9.tbd */; };
+		EC2A28CE1F236E6D00C23042 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28CD1F236E6D00C23042 /* CoreLocation.framework */; };
+		EC2A28D01F236F2700C23042 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A28CF1F236F2700C23042 /* MessageUI.framework */; };
+		EC2A29191F237D5300C23042 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A290F1F237D5300C23042 /* BaiduMapAPI_Base.framework */; };
+		EC2A291A1F237D5300C23042 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29101F237D5300C23042 /* BaiduMapAPI_Cloud.framework */; };
+		EC2A291B1F237D5300C23042 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29111F237D5300C23042 /* BaiduMapAPI_Location.framework */; };
+		EC2A291C1F237D5300C23042 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29121F237D5300C23042 /* BaiduMapAPI_Map.framework */; };
+		EC2A291D1F237D5300C23042 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29131F237D5300C23042 /* BaiduMapAPI_Radar.framework */; };
+		EC2A291E1F237D5300C23042 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29141F237D5300C23042 /* BaiduMapAPI_Search.framework */; };
+		EC2A291F1F237D5300C23042 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29151F237D5300C23042 /* BaiduMapAPI_Utils.framework */; };
+		EC2A29201F237D5300C23042 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29171F237D5300C23042 /* libcrypto.a */; };
+		EC2A29211F237D5300C23042 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2A29181F237D5300C23042 /* libssl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,28 @@
 		EC2A288F1F23671800C23042 /* BaiduDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2A28931F23671800C23042 /* BaiduDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduDemoUITests.swift; sourceTree = "<group>"; };
 		EC2A28951F23671800C23042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2A28B11F23677C00C23042 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		EC2A28B41F23679B00C23042 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../../../Desktop/BaiduMap_IOSSDK_v3.3.2_All/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		EC2A28B51F23679B00C23042 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../../../Desktop/BaiduMap_IOSSDK_v3.3.2_All/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		EC2A28B81F2367A400C23042 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC2A28BA1F2367AD00C23042 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EC2A28BC1F2367B400C23042 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC2A28BE1F2367BC00C23042 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC2A28C01F2367C600C23042 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EC2A28C21F2367D200C23042 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EC2A28C41F2367F100C23042 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		EC2A28CC1F236DA400C23042 /* BMKSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BMKSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC2A28CD1F236E6D00C23042 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC2A28CF1F236F2700C23042 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EC2A290F1F237D5300C23042 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		EC2A29101F237D5300C23042 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		EC2A29111F237D5300C23042 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		EC2A29121F237D5300C23042 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		EC2A29131F237D5300C23042 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		EC2A29141F237D5300C23042 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		EC2A29151F237D5300C23042 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		EC2A29171F237D5300C23042 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		EC2A29181F237D5300C23042 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +99,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2A291D1F237D5300C23042 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				EC2A28D01F236F2700C23042 /* MessageUI.framework in Frameworks */,
+				EC2A29211F237D5300C23042 /* libssl.a in Frameworks */,
+				EC2A291E1F237D5300C23042 /* BaiduMapAPI_Search.framework in Frameworks */,
+				EC2A28CE1F236E6D00C23042 /* CoreLocation.framework in Frameworks */,
+				EC2A291A1F237D5300C23042 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				EC2A29191F237D5300C23042 /* BaiduMapAPI_Base.framework in Frameworks */,
+				EC2A28C51F2367F100C23042 /* libstdc++.6.0.9.tbd in Frameworks */,
+				EC2A28C31F2367D200C23042 /* CoreTelephony.framework in Frameworks */,
+				EC2A28C11F2367C600C23042 /* libsqlite3.0.tbd in Frameworks */,
+				EC2A28BF1F2367BC00C23042 /* SystemConfiguration.framework in Frameworks */,
+				EC2A29201F237D5300C23042 /* libcrypto.a in Frameworks */,
+				EC2A28BD1F2367B400C23042 /* QuartzCore.framework in Frameworks */,
+				EC2A291C1F237D5300C23042 /* BaiduMapAPI_Map.framework in Frameworks */,
+				EC2A28BB1F2367AD00C23042 /* OpenGLES.framework in Frameworks */,
+				EC2A28B91F2367A400C23042 /* Security.framework in Frameworks */,
+				EC2A28B61F23679B00C23042 /* libcrypto.a in Frameworks */,
+				EC2A28B71F23679B00C23042 /* libssl.a in Frameworks */,
+				EC2A291F1F237D5300C23042 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				EC2A291B1F237D5300C23042 /* BaiduMapAPI_Location.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +146,7 @@
 				EC2A28871F23671800C23042 /* BaiduDemoTests */,
 				EC2A28921F23671800C23042 /* BaiduDemoUITests */,
 				EC2A286E1F23671800C23042 /* Products */,
+				EC2A28B31F23679A00C23042 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,8 @@
 		EC2A286F1F23671800C23042 /* BaiduDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EC2A28CC1F236DA400C23042 /* BMKSwiftDemo-Bridging-Header.h */,
+				EC2A290E1F237D5300C23042 /* BaiduAPI */,
 				EC2A28701F23671800C23042 /* AppDelegate.swift */,
 				EC2A28721F23671800C23042 /* ViewController.swift */,
 				EC2A28741F23671800C23042 /* Main.storyboard */,
@@ -126,6 +192,58 @@
 				EC2A28951F23671800C23042 /* Info.plist */,
 			);
 			path = BaiduDemoUITests;
+			sourceTree = "<group>";
+		};
+		EC2A28B01F23676D00C23042 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A28B11F23677C00C23042 /* mapapi.bundle */,
+			);
+			name = resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EC2A28B31F23679A00C23042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A28CF1F236F2700C23042 /* MessageUI.framework */,
+				EC2A28CD1F236E6D00C23042 /* CoreLocation.framework */,
+				EC2A28C41F2367F100C23042 /* libstdc++.6.0.9.tbd */,
+				EC2A28C21F2367D200C23042 /* CoreTelephony.framework */,
+				EC2A28C01F2367C600C23042 /* libsqlite3.0.tbd */,
+				EC2A28BE1F2367BC00C23042 /* SystemConfiguration.framework */,
+				EC2A28BC1F2367B400C23042 /* QuartzCore.framework */,
+				EC2A28BA1F2367AD00C23042 /* OpenGLES.framework */,
+				EC2A28B81F2367A400C23042 /* Security.framework */,
+				EC2A28B41F23679B00C23042 /* libcrypto.a */,
+				EC2A28B51F23679B00C23042 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2A290E1F237D5300C23042 /* BaiduAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A28B01F23676D00C23042 /* resources */,
+				EC2A290F1F237D5300C23042 /* BaiduMapAPI_Base.framework */,
+				EC2A29101F237D5300C23042 /* BaiduMapAPI_Cloud.framework */,
+				EC2A29111F237D5300C23042 /* BaiduMapAPI_Location.framework */,
+				EC2A29121F237D5300C23042 /* BaiduMapAPI_Map.framework */,
+				EC2A29131F237D5300C23042 /* BaiduMapAPI_Radar.framework */,
+				EC2A29141F237D5300C23042 /* BaiduMapAPI_Search.framework */,
+				EC2A29151F237D5300C23042 /* BaiduMapAPI_Utils.framework */,
+				EC2A29161F237D5300C23042 /* thirdlibs */,
+			);
+			path = BaiduAPI;
+			sourceTree = "<group>";
+		};
+		EC2A29161F237D5300C23042 /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				EC2A29171F237D5300C23042 /* libcrypto.a */,
+				EC2A29181F237D5300C23042 /* libssl.a */,
+			);
+			path = thirdlibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +314,7 @@
 				TargetAttributes = {
 					EC2A286C1F23671800C23042 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3D73QN66PX;
 						ProvisioningStyle = Automatic;
 					};
 					EC2A28831F23671800C23042 = {
@@ -236,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2A287E1F23671800C23042 /* LaunchScreen.storyboard in Resources */,
+				EC2A28B21F23677C00C23042 /* mapapi.bundle in Resources */,
 				EC2A287B1F23671800C23042 /* Assets.xcassets in Resources */,
 				EC2A28761F23671800C23042 /* Main.storyboard in Resources */,
 			);
@@ -416,10 +536,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3D73QN66PX;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduDemo",
+					"$(PROJECT_DIR)/BaiduDemo/BaiduAPI",
+				);
 				INFOPLIST_FILE = BaiduDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BMKSwiftDemo/BaiduMapAPI/thirdlibs",
+					"$(PROJECT_DIR)/BaiduDemo/BaiduAPI/thirdlibs",
+				);
+				OTHER_LIBTOOLFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduDemo/BMKSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,10 +563,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3D73QN66PX;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduDemo",
+					"$(PROJECT_DIR)/BaiduDemo/BaiduAPI",
+				);
 				INFOPLIST_FILE = BaiduDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BMKSwiftDemo/BaiduMapAPI/thirdlibs",
+					"$(PROJECT_DIR)/BaiduDemo/BaiduAPI/thirdlibs",
+				);
+				OTHER_LIBTOOLFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.none.BaiduDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduDemo/BMKSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +659,7 @@
 				EC2A289A1F23671800C23042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2A289B1F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +668,7 @@
 				EC2A289D1F23671800C23042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2A289E1F23671800C23042 /* Build configuration list for PBXNativeTarget "BaiduDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +677,7 @@
 				EC2A28A01F23671800C23042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
